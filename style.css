@@ -3,6 +3,23 @@
   padding: 0;
   margin: 0;
 }
+
+
+.firstDropDown:hover .templatesWrite{
+  color: #005ac0;
+}
+.secondDropDown:hover .patternsWrite{
+  color: #005ac0;
+}
+
+.firstDropDown:hover{
+  background-color: #ecf4f8;
+  
+}
+.secondDropDown:hover{
+  background-color: #ecf4f8;
+}
+
 #modal-trigger{
   display: none;
 }
