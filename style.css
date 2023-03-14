@@ -474,12 +474,16 @@ body {
   margin: 0 0 26.3px 0;
   font-weight: 700;
   color: #ffffff;
+  position: relative;
 }
 .writeH2::before {
   display: flex;
-  position: relative;
+  position: absolute;
   top: 4.5rem;
-  left:22.5rem;
+  /* left:22.5rem; */
+  left: 47%;
+  right: 53%;
+  
   width: 1.5em;
   height: 3px;
   content: "";
@@ -720,15 +724,8 @@ body {
     color: #ffffff;
   }
   .writeH2::before {
-    display: flex;
-    position: relative;
     top: 3.7rem;
-    left:18rem;
-    width: 1.5em;
-    height: 3px;
-    content: "";
-    background-color: #086ed4;
-    color: #ffffff;
+ 
   }
   .writeP1 {
     font-size: 17.91px;
@@ -906,15 +903,9 @@ body {
     color: #ffffff;
   }
   .writeH2::before {
-    display: flex;
-    position: relative;
+
     top: 3rem;
-    left:15rem;
-    width: 1.5em;
-    height: 3px;
-    content: "";
-    background-color: #086ed4;
-    color: #ffffff;
+  
   }
   .writeP1 {
     font-size: 17.22px;
@@ -1097,17 +1088,11 @@ body {
     font-weight: 700;
     color: #ffffff;
   }
-  .writeH2::before {
-    display: flex;
-    position: relative;
+  /* .writeH2::before {
+
     top: 3rem;
-    left:20.5rem;
-    width: 1.5em;
-    height: 3px;
-    content: "";
-    background-color: #086ed4;
-    color: #ffffff;
-  }
+  
+  } */
   .writeP1 {
     font-size: 17.22px;
     margin: 24px 0 0 0;
@@ -1253,17 +1238,9 @@ body {
     font-weight: 700;
     color: #ffffff;
   }
-  .writeH2::before {
-    display: flex;
-    position: relative;
+  /* .writeH2::before {
     top: 3rem;
-    left:15.5rem;
-    width: 1.5em;
-    height: 3px;
-    content: "";
-    background-color: #086ed4;
-    color: #ffffff;
-  }
+  } */
   .writeP1 {
     font-size: 16.92px;
     margin: 24px 0 0 0;
