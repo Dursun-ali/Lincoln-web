@@ -21,6 +21,8 @@
 }
 
 #modal-trigger{
+  position: absolute;
+  right: 0rem;
   display: none;
 }
 #modal{
@@ -85,24 +87,12 @@ background-color: #005ac0;
   color: #FFFFFF;
 }
 /* -------------------------------------------------------------------- */
-.dropbtn {
-  background-color: #04aa6d;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 .dropbtn-item {
   background-color: #086ed4;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
 }
 .dropdown-item {
   font-weight: 700;
@@ -114,7 +104,7 @@ background-color: #005ac0;
   display: none;
   position: absolute;
   top: 7.6rem;
-  right: 0;
+  right: 1.3rem;
   background-color: #086ed4;
   min-width: 280px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -129,7 +119,7 @@ background-color: #005ac0;
   position: absolute;
   top: 0rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 .dropdown-content-item1 {
   font-weight: 500;
@@ -138,7 +128,7 @@ background-color: #005ac0;
   position: absolute;
   top: 18rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 .dropdown-content-item2 {
   font-weight: 500;
@@ -147,7 +137,7 @@ background-color: #005ac0;
   position: absolute;
   top: 21.5rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 .dropdown-content-item-1 {
   font-weight: 500;
@@ -156,7 +146,7 @@ background-color: #005ac0;
   position: absolute;
   top: 0rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 .dropdown-content-item-2 {
   font-weight: 500;
@@ -165,7 +155,7 @@ background-color: #005ac0;
   position: absolute;
   top: 3.5rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 .dropdown-content-item-3 {
   font-weight: 500;
@@ -174,7 +164,7 @@ background-color: #005ac0;
   position: absolute;
   top: 7rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 .dropdown-content-item-4 {
   font-weight: 500;
@@ -183,7 +173,7 @@ background-color: #005ac0;
   position: absolute;
   top: 10.5rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 .dropdown-content-item-5 {
   font-weight: 500;
@@ -192,7 +182,7 @@ background-color: #005ac0;
   position: absolute;
   top: 14.5rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 .dropdown-content-item-6 {
   font-weight: 500;
@@ -201,7 +191,7 @@ background-color: #005ac0;
   position: absolute;
   top: 18rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 .dropdown-content-item-7 {
   font-weight: 500;
@@ -210,7 +200,7 @@ background-color: #005ac0;
   position: absolute;
   top: 21.5rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 .dropdown-content-item-8 {
   font-weight: 500;
@@ -219,7 +209,7 @@ background-color: #005ac0;
   position: absolute;
   top: 24rem;
   left: 17.6rem;
-  min-width: 280px;
+  min-width: 240px;
 }
 
 
@@ -272,10 +262,6 @@ background-color: #005ac0;
 }
 .dropdown-item:hover .dropdown-content-item-8 {
   display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
 }
 
 body {
@@ -768,10 +754,148 @@ body {
   .footer-col-2 {
     padding: 0 24px 0 8px;
   }
+
+
+
+
+
+  .dropbtn-item {
+    background-color: #086ed4;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    border: none;
+  }
+  .dropdown-item {
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 7.6rem;
+    right: 2.3rem;
+    background-color: #086ed4;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 8px 0;
+  }
+  
+  .dropdown-content-item {
+    font-weight: 500;
+    display: none;
+    position: absolute;
+    top: 0rem;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  .dropdown-content-item1 {
+    font-weight: 500;
+    display: none;
+    position: absolute;
+    top: 12.5rem;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  .dropdown-content-item2 {
+    font-weight: 500;
+    display: none;
+    position: absolute;
+    top: 15rem;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  .dropdown-content-item-1 {
+    display: none;
+    position: absolute;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  .dropdown-content-item-2 {
+    display: none;
+    position: absolute;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  .dropdown-content-item-3 {
+    display: none;
+    position: absolute;
+    top: 5.5rem;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  .dropdown-content-item-4 {
+    display: none;
+    position: absolute;
+    top: 8rem;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  .dropdown-content-item-5 {
+    display: none;
+    position: absolute;
+    top: 10.5rem;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  .dropdown-content-item-6 {
+    display: none;
+    position: absolute;
+    top: 12.5rem;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  .dropdown-content-item-7 {
+    display: none;
+    position: absolute;
+    top: 15.5rem;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  .dropdown-content-item-8 {
+    display: none;
+    position: absolute;
+    top: 17.5rem;
+    left: 11.3rem;
+    min-width: 120px;
+    font-size: 9px;
+  }
+  
+  
+  
+  .dropdown-content a {
+    color: white;
+    padding: 10px 9px;
+    text-decoration: none;
+    display: block;
+  }
+
+
 }
 
 /* lg */
 @media (max-width: 991.98px) {
+  
+    #modal-trigger{
+    display: block;
+  }
+  
+  .navUl li {
+    display: none;
+  }
   .wp-block-site-title a {
     font-size: 27.21px;
     color: #202020;
@@ -1153,17 +1277,12 @@ body {
 
 /* sm */
 @media (max-width: 575.98px) {
-  #modal-trigger{
-    display: block;
-  }
+
   
   .logo-container {
     padding: 23px 0;
   }
 
-  .navUl li {
-    display: none;
-  }
 
   .article-box {
     padding: 23.04px;
